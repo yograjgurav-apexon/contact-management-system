@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+/* .row {
+    width: 70%;
+  } */
+.navbar a {
+  font-size: 16px;
+  color: #0080ff;
+}
+
+.line {
+  height: 80vh;
+}
+
+span,
+h5 {
+  color: grey;
+}
+
+.userData {
+  margin: 10px;
+  padding: 10px;
+}
+
+.infoData {
+  padding: 0px 0px 0px 20%;
+}
+
+.d-inline-block a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

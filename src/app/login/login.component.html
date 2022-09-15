@@ -1,0 +1,58 @@
+<div class="container-fluid">
+  <div class="row">
+    <div *ngIf="loggedInUserId">
+      <p class="loggedInUserId">
+        Registered with an user id {{ loggedInUserId }}
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <h1>Login Form</h1>
+
+  <div class="row">
+    <div *ngIf="invalidUser" class="col-md-4">
+      <p class="invalidDiv">Username or Password is invalid</p>
+    </div>
+  </div>
+
+  <hr />
+  <form [formGroup]="loginForm" (ngSubmit)="submit()">
+    <div class="login-form">
+      <div class="row">
+        <div class="col-md-4">
+          <input
+            type="number"
+            class="form-control"
+            name="id"
+            formControlName="id"
+            placeholder="Enter User ID"
+          />
+        </div>
+        <div class="col-md-4">
+          <input
+            type="password"
+            class="form-control"
+            name="password"
+            formControlName="password"
+            placeholder="Enter password"
+          />
+        </div>
+        <div class="col-md-2">
+          <input
+            [disabled]="!loginForm.valid"
+            type="submit"
+            value="Login"
+            class="btn btn-primary"
+          />
+        </div>
+      </div>
+    </div>
+    <hr />
+    <button class="btn btn-profile" routerLink="/register">
+      Create Profile
+    </button>
+  </form>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,271 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "usernam": "Raj",
+      "password": "1234",
+      "number": 5567654348,
+      "birthday": "07/03/2002"
+    },
+    {
+      "id": 2,
+      "usernam": "Sahil",
+      "password": "1234",
+      "number": 8787654578,
+      "birthday": "28/05/2006"
+    },
+    {
+      "id": 3,
+      "username": "New1",
+      "password": "1234",
+      "phone": 1231231231,
+      "birthday": "2002-03-07"
+    },
+    {
+      "id": 4,
+      "username": "",
+      "password": "",
+      "phone": "",
+      "birthday": ""
+    },
+    {
+      "id": 5,
+      "username": "",
+      "password": "",
+      "phone": "",
+      "birthday": ""
+    },
+    {
+      "id": 6,
+      "username": "",
+      "password": "",
+      "phone": "",
+      "birthday": ""
+    },
+    {
+      "id": 7,
+      "username": "new2",
+      "password": "1234",
+      "phone": 1231231231,
+      "birthday": "2002-03-08"
+    },
+    {
+      "id": 8,
+      "username": "new3",
+      "password": "1234",
+      "phone": 8787878787,
+      "birthday": "2000-09-09"
+    },
+    {
+      "id": 9,
+      "username": "new4",
+      "password": "1234",
+      "phone": 1232132131,
+      "birthday": "2000-02-09"
+    },
+    {
+      "id": 10,
+      "username": "new5",
+      "password": "1234",
+      "phone": 1231231231,
+      "birthday": "2000-09-09"
+    },
+    {
+      "id": 11,
+      "username": "new6",
+      "password": "1234",
+      "phone": 21323213213,
+      "birthday": "2003-02-09"
+    },
+    {
+      "id": 12,
+      "username": "new7",
+      "password": "1234",
+      "phone": 1231231231,
+      "birthday": "1999-02-09"
+    },
+    {
+      "id": 13,
+      "username": "new8",
+      "password": "1234",
+      "phone": 9393939393,
+      "birthday": "2000-08-08"
+    },
+    {
+      "id": 14,
+      "username": "abc",
+      "password": "123",
+      "phone": 123,
+      "birthday": "9292-02-09"
+    },
+    {
+      "id": 15,
+      "username": "asdsa",
+      "password": "dsads",
+      "phone": 213213,
+      "birthday": "2000-12-23"
+    },
+    {
+      "id": 16,
+      "username": "qwe",
+      "password": "123",
+      "phone": 2,
+      "birthday": "2000-09-02"
+    },
+    {
+      "id": 17,
+      "username": "eee2",
+      "password": "222",
+      "phone": 2,
+      "birthday": "2022-09-08"
+    },
+    {
+      "id": 18,
+      "username": "new",
+      "password": "wqe",
+      "phone": 12321,
+      "birthday": "2000-02-09"
+    },
+    {
+      "id": 19,
+      "username": "newnew",
+      "password": "1234",
+      "phone": 1232131231,
+      "birthday": "1999-07-08"
+    },
+    {
+      "id": 20,
+      "username": "meh",
+      "password": "1234",
+      "phone": 9876543210,
+      "birthday": "1999-08-07"
+    },
+    {
+      "id": 21,
+      "username": "billu",
+      "password": "1234",
+      "phone": 9999999999,
+      "birthday": "2000-09-09"
+    },
+    {
+      "id": 22,
+      "username": "bee gees",
+      "password": "1234",
+      "phone": 9898989898,
+      "birthday": "1989-06-09"
+    },
+    {
+      "id": 23,
+      "username": "Raj",
+      "password": "1234",
+      "phone": 1238887676,
+      "birthday": "2002-03-07"
+    },
+    {
+      "id": 24,
+      "username": "New",
+      "password": "1234",
+      "phone": 1231231231,
+      "birthday": "2000-09-09"
+    },
+    {
+      "id": 25,
+      "username": "new",
+      "password": "1234",
+      "phone": 1231231231,
+      "birthday": "1999-08-09"
+    },
+    {
+      "id": 26,
+      "username": "Mayur",
+      "password": "1234",
+      "phone": 1234567890,
+      "birthday": "2000-04-09"
+    },
+    {
+      "id": 27,
+      "username": "Fravash",
+      "password": "1234",
+      "phone": 9292929292,
+      "birthday": "2000-02-09"
+    },
+    {
+      "id": 28,
+      "username": "Vishal",
+      "password": "1234",
+      "phone": 1231231231,
+      "birthday": "2000-02-02"
+    },
+    {
+      "username": "Mirang",
+      "password": "1234",
+      "phone": 1231231231,
+      "birthday": "1997-08-05",
+      "contacts": [
+        {
+          "username": "Sahil",
+          "phone": 7878787878
+        },
+        {
+          "username": "Mayur",
+          "phone": 9876543210
+        },
+        {
+          "username": "Varad",
+          "phone": 9969115058
+        },
+        {
+          "username": "Chetan",
+          "phone": 7676767676
+        },
+        {
+          "username": "Shawn",
+          "phone": 8989786756
+        },
+        {
+          "username": "Shashwat",
+          "phone": 8767564598
+        }
+      ],
+      "id": 29
+    },
+    {
+      "username": "Vishal",
+      "password": "1234",
+      "phone": 8797827364,
+      "birthday": "1999-02-12",
+      "contacts": [
+        {
+          "username": "Swapnil",
+          "phone": 8767654637
+        },
+        {
+          "username": "Mayur",
+          "phone": 7584372819
+        },
+        {
+          "username": "Mayur",
+          "phone": 8374657438
+        }
+      ],
+      "id": 30
+    },
+    {
+      "username": "Test",
+      "password": "password",
+      "phone": 1234567890,
+      "birthday": "2001-01-01",
+      "contacts": [
+        {
+          "username": "demo2",
+          "phone": 1234567890
+        },
+        {
+          "username": "demo2",
+          "phone": 1234567890
+        }
+      ],
+      "id": 31
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<div class="container-fluid">
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" routerLink="dashboard">Dashboard</a>
+    <a class="navbar-brand" routerLink="addContacts">Add contacts</a>
+    <a class="navbar-brand" routerLink="showAllContacts">Show all contacts</a>
+    <a class="navbar-brand" routerLink="search">Search contacts</a>
+    <a ngbDropdown class="d-inline-block">
+      <a class="" id="dropdownBasic1" ngbDropdownToggle> Setting </a>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+        <a routerLink="update" ngbDropdownItem>Change Password</a>
+        <a routerLink="delete" ngbDropdownItem>Delete Profile</a>
+        <a (click)="logout()" ngbDropdownItem>Logout</a>
+      </div>
+    </a>
+  </nav>
+</div>
+<div class="container-fluid">
+  <hr />
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <h5>Profile Summary!</h5>
+      <hr />
+      <div class="userData">
+        <div class="row">
+          <div class="col-md-4 infoHeading">
+            <h6>Birthday:</h6>
+          </div>
+          <div class="col-md-8 infoData">
+            <span style="color: grey">{{ loggedInUser.birthday | date }}</span>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-md-4 infoHeading">
+            <h6>Mobile:</h6>
+          </div>
+          <div class="col-md-8 infoData">
+            <span>{{ loggedInUser.phone }}</span>
+          </div>
+        </div>
+      </div>
+      <!-- <div>2</div> -->
+    </div>
+    <div class="col-md-1" style="text-align: center">
+      <div class="vr line"></div>
+      <!-- <div class="vr" style="height: 60vh"></div> -->
+    </div>
+    <div class="col-md-8">
+      <!-- <div class="row"></div> -->
+      <!-- <app-user-info>s</app-user-info> -->
+      <!-- <app-add-contacts></app-add-contacts> -->
+      <!-- <app-all-contacts></app-all-contacts> -->
+      <!-- <app-dashboard></app-dashboard> -->
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <!-- <router-outlet></router-outlet> -->
+</div>

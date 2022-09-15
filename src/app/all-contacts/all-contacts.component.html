@@ -1,0 +1,35 @@
+<div>
+  <h3>All Contacts</h3>
+  <hr />
+  <div class="table">
+    <table
+      *ngIf="loggedInUser.contacts.length > 0; else noUserPresent"
+      class="table table-striped"
+    >
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Phone Number</th>
+          <th scope="col">X</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let contact of allContacts; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ contact.username }}</td>
+          <td>{{ contact.phone }}</td>
+          <td>
+            <button class="btn btn-danger" (click)="delete(contact)">
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <ng-template #noUserPresent>
+      <p>Sorry Contacts not available</p>
+      <hr />
+    </ng-template>
+  </div>
+</div>

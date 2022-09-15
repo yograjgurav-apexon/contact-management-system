@@ -1,0 +1,33 @@
+<div>
+  <h3>Contact Details</h3>
+  <hr />
+
+  <div>
+    <form [formGroup]="userForm" (ngSubmit)="storeUser()">
+      <input
+        type="text"
+        class="form-control"
+        name="username"
+        placeholder="Enter Name"
+        formControlName="username"
+      />
+      <br />
+      <input
+        type="number"
+        class="form-control"
+        name="phone"
+        placeholder="Enter Number"
+        formControlName="phone"
+      />
+      <br />
+      <button [disabled]="!userForm.valid" class="btn btn-primary">
+        Save Contact
+      </button>
+    </form>
+    <br />
+    <div *ngIf="userAdded; then userAddedSuccessfully"></div>
+    <ng-template #userAddedSuccessfully>
+      <p>{{ newUser.username }} added to your contact</p>
+    </ng-template>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+form {
+  color: lightslategray;
+}
+form::placeholder {
+  color: lightslategray;
+}
+.backToLoginLink {
+  text-decoration: none;
+  color: #0080ff;
+}
+span {
+  cursor: pointer;
+  color: #0080ff;
+}
